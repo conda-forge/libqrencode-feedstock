@@ -16,7 +16,7 @@ requirements:
   build:
     - ${{ compiler("c") }}
     - ${{ stdlib("c") }}
-    - pkg-config
+    - pkgconf
     - if: unix
       then:
         - autoconf
